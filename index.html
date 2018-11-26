@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Akari's personal site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <!-- 画像をURL指定、atlはテキストによる画像の説明。Googleによる検索の対象となる -->
+        <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p160x160/37203081_10217507985038026_5196456995577659392_n.jpg?_nc_cat=101&_nc_ht=scontent-nrt1-1.xx&oh=e3b72590d6f648f93f1be32ee0dde999&oe=5CAF2F08" alt="Akari Tanobe's profile">
+        <!-- 画像をファイル指定、（imagesフォルダをindex.htmlと同じ階層に保存した場合の書き方） -->
+        <img src="images/akari.jpg" alt="akari's profile" sizes="20%">
+      </td>
+      <td>
+        <h1>Akari Tanobe</h1>
+        <p>
+          <em>This is the record of <strong>Akari</strong>'s studies.</em>
+        </p>
+        <p>
+          I'm a beginner of programming. I want to be a web developer.<br>
+          I 💖 travelling very much.<br>
+          This is my instergram <a href="https://www.instagram.com/39days_find_the_world/?hl=ja">"39days_find_the_world"</a>, which features my travel around the world experience.
+        </p>
+      </td>
+    </tr>
+  </table>
+  <!-- 文字の強調　'em' is better 'i', 'strong' is better 'b'. 'em'and'strong has meaning that they are important.-->
+  <hr>
+  <h3>Learning resources</h3>
+  <!-- unordered(bullet point) list -->
+  <ul>
+    <li><a href="https://prog-8.com/">Progate</a></li>
+    <li><a href="https://www.udemy.com/">Udemy</a></li>
+  </ul>
+  <h3>Learning Schedule</h3>
+  <!-- ordered list -->
+  <ol>
+    <li>HTML&CSS</li>
+    Download Cheatsheet <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>here</a><br>
+    Input types <a href="input-types.html">here</a>
+
+    <li>Java Script</li>
+    <li>Ruby</li>
+  </ol>
+
+<hr>
+
+  <h3>Work Experience</h3>
+  <!-- tableを作る　-->
+  <table cellspacing = "10">
+    <!-- theadとtbody,tfootはセクション分けした方がスタイルの応用がきく-->
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010</td>
+        <td>Graduate University and Start working as a sales at Toray Inc.</td>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Start new challange for being a System Engineer </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+
+<!-- nested table （tableの中にtableを作成するエクササイズ-->
+<table>
+  <tr>
+    <td>
+      <table cellspacing = "10">
+        <tr>
+          <td>html</td>
+          <td>⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td>html</td>
+          <td>⭐️⭐️⭐️</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table cellspacing = "10">
+        <tr>
+          <td>html</td>
+          <td>⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+          <td>html</td>
+          <td>⭐️⭐️⭐️</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  <hr>
+
+  <a href="contact-me.html">Contact me</a>
+</body>
+
+</html>
